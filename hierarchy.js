@@ -9,11 +9,16 @@ var hierarchy =
     [ "WrightFlightManager.DAO.iRoleDAO", "interface_wright_flight_manager_1_1_d_a_o_1_1i_role_d_a_o.html", [
       [ "WrightFlightManager.DAO.RoleFileDAO", "class_wright_flight_manager_1_1_d_a_o_1_1_role_file_d_a_o.html", null ]
     ] ],
+    [ "WrightFlightManager.DAO.iUserDAO", "interface_wright_flight_manager_1_1_d_a_o_1_1i_user_d_a_o.html", [
+      [ "WrightFlightManager.DAO.UserFileDAO", "class_wright_flight_manager_1_1_d_a_o_1_1_user_file_d_a_o.html", null ]
+    ] ],
     [ "JFrame", null, [
       [ "WrightFlightManager.GUI.BaggageScreentoFlightAttendantView", "class_wright_flight_manager_1_1_g_u_i_1_1_baggage_screento_flight_attendant_view.html", null ],
       [ "WrightFlightManager.GUI.FlightAttendantAccountCreationToGUI", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_to_g_u_i.html", null ],
+      [ "WrightFlightManager.GUI.FlightAttendantAccountCreationView", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_view.html", null ],
       [ "WrightFlightManager.GUI.FlightAttendantView", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_view.html", null ],
       [ "WrightFlightManager.GUI.PassengerAccountCreationToGUI", "class_wright_flight_manager_1_1_g_u_i_1_1_passenger_account_creation_to_g_u_i.html", null ],
+      [ "WrightFlightManager.GUI.PassengerAccountCreationView", "class_wright_flight_manager_1_1_g_u_i_1_1_passenger_account_creation_view.html", null ],
       [ "WrightFlightManager.GUI.WelcomeScreen", "class_wright_flight_manager_1_1_g_u_i_1_1_welcome_screen.html", null ]
     ] ],
     [ "WrightFlightManager.Main", "class_wright_flight_manager_1_1_main.html", null ],

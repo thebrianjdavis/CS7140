@@ -1,59 +1,69 @@
 \doxysection{Wright\+Flight\+Manager.\+MODEL.\+Flight Class Reference}
 \hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}\index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}}
+
+
+This class represents a flight with its attributes and methods.  
+
+
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a6055a953a9841919231262fc5e2f07b6}{Flight}} (String flight\+Number, String origin\+Airport, String destination\+Airport, String plane\+Type, Date planned\+Departure, Date planned\+Arrival, String departure\+Gate, String arrival\+Gate)
-\item 
+\begin{DoxyCompactList}\small\item\em This parameterized constructor is for creating a new flight entry in the database and initializes the variables for first\+Class\+Seats\+Filled and coach\+Class\+Seats\+Filled to zero. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a163f7e82ed5844ca019df5d1802014e6}{Flight}} (String flight\+Number, String origin\+Airport, String destination\+Airport, String plane\+Type, Date planned\+Departure, Date planned\+Arrival, Date actual\+Departure, Date actual\+Arrival, String departure\+Gate, String arrival\+Gate, int first\+Class\+Seats\+Filled, int coach\+Class\+Seats\+Filled)
-\item 
+\begin{DoxyCompactList}\small\item\em This parameterized constructor is for Flight objects that already exist and are read-\/in from the Flights database file. \end{DoxyCompactList}\item 
 String \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a27169e870ad8b101f017f4ab27134cc6}{get\+Flight\+Number}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the Flight\textquotesingle{}s four-\/digit ID number. \end{DoxyCompactList}\item 
 String \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a28f78994a0813fac1b264e83556b5301}{get\+Origin\+Airport}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the three-\/letter code for the Flight\textquotesingle{}s airport of origin. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ae3e8181ab8eb248afa5ae25e7e19cfc6}{set\+Origin\+Airport}} (String origin\+Airport)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the airport of origin for the Flight. \end{DoxyCompactList}\item 
 String \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ac5a3747e921b1411ef94ca48a6f7c31f}{get\+Destination\+Airport}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the three-\/letter code for the Flight\textquotesingle{}s airport of destination. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a120e03837f38b0454944e8b60528eb23}{set\+Destination\+Airport}} (String destination\+Airport)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the airport of destination for the Flight. \end{DoxyCompactList}\item 
 String \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ad81ca5bc6326b58d01909f1a053edacc}{get\+Plane\+Type}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the type of plane the Flight will be on. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ad482bc040f33d33ade5dd0eb579d5b93}{set\+Plane\+Type}} (String plane\+Type)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the type of plane the Flight will use. \end{DoxyCompactList}\item 
 Date \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a03e90bf5052b513e0918a9b202bc8d18}{get\+Planned\+Departure}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the planned date and time of departure for the Flight. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a170ac42bc48ded3b235b01a2b681f9d6}{set\+Planned\+Departure}} (Date planned\+Departure)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the planned date and time of departure for the Flight. \end{DoxyCompactList}\item 
 Date \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ab07a248b93c8119672b93baef410436e}{get\+Planned\+Arrival}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the planned date and time of arrival for the Flight. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a9a606287fa311087a571bae219666f2c}{set\+Planned\+Arrival}} (Date planned\+Arrival)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the planned date and time of arrival for the Flight. \end{DoxyCompactList}\item 
 Date \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a9828277b5aaf4509eb69b39cca22018b}{get\+Actual\+Departure}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the actual date and time of departure for the Flight. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a8718403072d7db6b93c2a12017fb7059}{set\+Actual\+Departure}} (Date actual\+Departure)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the actual date and time of departure for the Flight. \end{DoxyCompactList}\item 
 Date \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_afde1f03a22b112de1928a1f7e345dea6}{get\+Actual\+Arrival}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the actual date and time of arrival for the Flight. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a2c85625566b34fae218fa70dc7930955}{set\+Actual\+Arrival}} (Date actual\+Arrival)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the actual date and time of arrival for the Flight. \end{DoxyCompactList}\item 
 String \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a9a46ee065ae102df5f86a3795d706c7c}{get\+Departure\+Gate}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the gate the Flight will depart from. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a0599d66b15b7faebf4f86d2612df0729}{set\+Departure\+Gate}} (String departure\+Gate)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the gate from which the Flight will depart. \end{DoxyCompactList}\item 
 String \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a270c91bc256164d3207d8e0e5b7e2f5f}{get\+Arrival\+Gate}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the gate the Flight will arrive at. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ab3d4fa1a10395f9ee40b65778b39741a}{set\+Arrival\+Gate}} (String arrival\+Gate)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the gate at which the Flight will arrive. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_aaac88b16f1eb164ab2bab5166a6f0d09}{get\+First\+Class\+Seats\+Filled}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the number of first class seats already filled for the flight. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a4428d1419265a74f1204234f4eee6519}{set\+First\+Class\+Seats\+Filled}} (int first\+Class\+Seats\+Filled)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the number of first class seats already filled for the Flight. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a6f8fddf1be721ae8a04d4f1db4341b4c}{get\+Coach\+Class\+Seats\+Filled}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the number of coach class seats already filled for the flight. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a37d32dba57f25337572329e4e7476e8e}{set\+Coach\+Class\+Seats\+Filled}} (int coach\+Class\+Seats\+Filled)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Sets the number of coach class seats already filled for the Flight. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
+
+\doxysubsection{Detailed Description}
+This class represents a flight with its attributes and methods. 
+
+The Flight class encapsulates information about a flight, including its flight number, origin and destination airports, plane type, planned departure and arrival dates, actual departure and arrival dates, departure and arrival gates, and the number of filled seats in first class and coach class. Objects of this class can be used to store and retrieve flight-\/related information in the Wright\+Flight\+Manager application. 
 
 \doxysubsection{Constructor \& Destructor Documentation}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a6055a953a9841919231262fc5e2f07b6}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a6055a953a9841919231262fc5e2f07b6} 
@@ -62,23 +72,27 @@ void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a37d3
 \doxysubsubsection{\texorpdfstring{Flight()}{Flight()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily Wright\+Flight\+Manager.\+MODEL.\+Flight.\+Flight (\begin{DoxyParamCaption}\item[{String}]{flight\+Number,  }\item[{String}]{origin\+Airport,  }\item[{String}]{destination\+Airport,  }\item[{String}]{plane\+Type,  }\item[{Date}]{planned\+Departure,  }\item[{Date}]{planned\+Arrival,  }\item[{String}]{departure\+Gate,  }\item[{String}]{arrival\+Gate }\end{DoxyParamCaption})}
 
-This parameterized constructor is for the creation of a new flight entry in the database and will initialize the variables for first\+Class\+Seats\+Filled and coach\+Class\+Seats\+Filled to zero 
+
+
+This parameterized constructor is for creating a new flight entry in the database and initializes the variables for first\+Class\+Seats\+Filled and coach\+Class\+Seats\+Filled to zero. 
+
+Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em flight\+Number} & A String representing the four digit flight number \\
+{\em flight\+Number} & A String representing the four-\/digit flight number. \\
 \hline
-{\em origin\+Airport} & A String representing the three-\/letter airport code of origin \\
+{\em origin\+Airport} & A String representing the three-\/letter airport code of origin. \\
 \hline
-{\em destination\+Airport} & A String representing the three-\/letter airport code of destination \\
+{\em destination\+Airport} & A String representing the three-\/letter airport code of destination. \\
 \hline
-{\em plane\+Type} & A String representing the type of plane the flight will use \\
+{\em plane\+Type} & A String representing the type of plane the flight will use. \\
 \hline
-{\em planned\+Departure} & A Date representing the planned date and time of departure \\
+{\em planned\+Departure} & A Date representing the planned date and time of departure. \\
 \hline
-{\em planned\+Arrival} & A Date representing the planned date and time of arrival \\
+{\em planned\+Arrival} & A Date representing the planned date and time of arrival. \\
 \hline
-{\em departure\+Gate} & A String representing the gate the flight will depart from \\
+{\em departure\+Gate} & A String representing the gate the flight will depart from. \\
 \hline
-{\em arrival\+Gate} & A String representing the gate the flight will arrive at \\
+{\em arrival\+Gate} & A String representing the gate the flight will arrive at. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a163f7e82ed5844ca019df5d1802014e6}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a163f7e82ed5844ca019df5d1802014e6} 
@@ -87,27 +101,35 @@ This parameterized constructor is for the creation of a new flight entry in the 
 \doxysubsubsection{\texorpdfstring{Flight()}{Flight()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
 {\footnotesize\ttfamily Wright\+Flight\+Manager.\+MODEL.\+Flight.\+Flight (\begin{DoxyParamCaption}\item[{String}]{flight\+Number,  }\item[{String}]{origin\+Airport,  }\item[{String}]{destination\+Airport,  }\item[{String}]{plane\+Type,  }\item[{Date}]{planned\+Departure,  }\item[{Date}]{planned\+Arrival,  }\item[{Date}]{actual\+Departure,  }\item[{Date}]{actual\+Arrival,  }\item[{String}]{departure\+Gate,  }\item[{String}]{arrival\+Gate,  }\item[{int}]{first\+Class\+Seats\+Filled,  }\item[{int}]{coach\+Class\+Seats\+Filled }\end{DoxyParamCaption})}
 
-This parameterized constructor is for Flight objects that already exist and are read-\/in from the Flights database file 
+
+
+This parameterized constructor is for Flight objects that already exist and are read-\/in from the Flights database file. 
+
+Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em flight\+Number} & A String representing the four digit flight number \\
+{\em flight\+Number} & A String representing the four-\/digit flight number. \\
 \hline
-{\em origin\+Airport} & A String representing the three-\/letter airport code of origin \\
+{\em origin\+Airport} & A String representing the three-\/letter airport code of origin. \\
 \hline
-{\em destination\+Airport} & A String representing the three-\/letter airport code of destination \\
+{\em destination\+Airport} & A String representing the three-\/letter airport code of destination. \\
 \hline
-{\em plane\+Type} & A String representing the type of plane the flight will use \\
+{\em plane\+Type} & A String representing the type of plane the flight will use. \\
 \hline
-{\em planned\+Departure} & A Date representing the planned date and time of departure \\
+{\em planned\+Departure} & A Date representing the planned date and time of departure. \\
 \hline
-{\em planned\+Arrival} & A Date representing the planned date and time of arrival \\
+{\em planned\+Arrival} & A Date representing the planned date and time of arrival. \\
 \hline
-{\em departure\+Gate} & A String representing the gate the flight will depart from \\
+{\em actual\+Departure} & A Date representing the actual date and time of departure. \\
 \hline
-{\em arrival\+Gate} & A String representing the gate the flight will arrive at \\
+{\em actual\+Arrival} & A Date representing the actual date and time of arrival. \\
 \hline
-{\em first\+Class\+Seats\+Filled} & An integer representing the number of first class seats already filled \\
+{\em departure\+Gate} & A String representing the gate the flight will depart from. \\
 \hline
-{\em coach\+Class\+Seats\+Filled} & An integer representing the number of coach class seats already filled \\
+{\em arrival\+Gate} & A String representing the gate the flight will arrive at. \\
+\hline
+{\em first\+Class\+Seats\+Filled} & An integer representing the number of first class seats already filled. \\
+\hline
+{\em coach\+Class\+Seats\+Filled} & An integer representing the number of coach class seats already filled. \\
 \hline
 \end{DoxyParams}
 
@@ -119,8 +141,12 @@ This parameterized constructor is for Flight objects that already exist and are 
 \doxysubsubsection{\texorpdfstring{getActualArrival()}{getActualArrival()}}
 {\footnotesize\ttfamily Date Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Actual\+Arrival (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Actual\+Arrival method takes no parameters and returns the Date (including time) of the Flight\textquotesingle{}s actual arrival \begin{DoxyReturn}{Returns}
-A Date representing the actual date and time of arrival 
+
+
+Retrieves the actual date and time of arrival for the Flight. 
+
+The get\+Actual\+Arrival method takes no parameters and returns the Date (including time) of the Flight\textquotesingle{}s actual arrival. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A Date representing the actual date and time of arrival. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a9828277b5aaf4509eb69b39cca22018b}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a9828277b5aaf4509eb69b39cca22018b} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getActualDeparture@{getActualDeparture}}
@@ -128,8 +154,12 @@ A Date representing the actual date and time of arrival
 \doxysubsubsection{\texorpdfstring{getActualDeparture()}{getActualDeparture()}}
 {\footnotesize\ttfamily Date Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Actual\+Departure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Actual\+Departure method takes no parameters and returns the Date (including time) of the Flight\textquotesingle{}s actual departure \begin{DoxyReturn}{Returns}
-A Date representing the actual date and time of departure 
+
+
+Retrieves the actual date and time of departure for the Flight. 
+
+The get\+Actual\+Departure method takes no parameters and returns the Date (including time) of the Flight\textquotesingle{}s actual departure. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A Date representing the actual date and time of departure. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a270c91bc256164d3207d8e0e5b7e2f5f}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a270c91bc256164d3207d8e0e5b7e2f5f} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getArrivalGate@{getArrivalGate}}
@@ -137,8 +167,12 @@ A Date representing the actual date and time of departure
 \doxysubsubsection{\texorpdfstring{getArrivalGate()}{getArrivalGate()}}
 {\footnotesize\ttfamily String Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Arrival\+Gate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Arrival\+Gate method takes no parameters and returns the gate the Flight will arrive at \begin{DoxyReturn}{Returns}
-A String representing the gate the Flight will arrive at 
+
+
+Retrieves the gate the Flight will arrive at. 
+
+The get\+Arrival\+Gate method takes no parameters and returns the gate the Flight will arrive at. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A String representing the gate the Flight will arrive at. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a6f8fddf1be721ae8a04d4f1db4341b4c}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a6f8fddf1be721ae8a04d4f1db4341b4c} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getCoachClassSeatsFilled@{getCoachClassSeatsFilled}}
@@ -146,8 +180,12 @@ A String representing the gate the Flight will arrive at
 \doxysubsubsection{\texorpdfstring{getCoachClassSeatsFilled()}{getCoachClassSeatsFilled()}}
 {\footnotesize\ttfamily int Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Coach\+Class\+Seats\+Filled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Coach\+Class\+Seats\+Filled method takes no parameters and returns the number of coach class seats already filled for the flight \begin{DoxyReturn}{Returns}
-An integer representing the number of coach class seats already filled 
+
+
+Retrieves the number of coach class seats already filled for the flight. 
+
+The get\+Coach\+Class\+Seats\+Filled method takes no parameters and returns the number of coach class seats already filled for the flight. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+An integer representing the number of coach class seats already filled. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a9a46ee065ae102df5f86a3795d706c7c}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a9a46ee065ae102df5f86a3795d706c7c} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getDepartureGate@{getDepartureGate}}
@@ -155,8 +193,12 @@ An integer representing the number of coach class seats already filled
 \doxysubsubsection{\texorpdfstring{getDepartureGate()}{getDepartureGate()}}
 {\footnotesize\ttfamily String Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Departure\+Gate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Departure\+Gate method takes no parameters and returns the gate the Flight will depart from \begin{DoxyReturn}{Returns}
-A String representing the gate the Flight will depart from 
+
+
+Retrieves the gate the Flight will depart from. 
+
+The get\+Departure\+Gate method takes no parameters and returns the gate the Flight will depart from. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A String representing the gate the Flight will depart from. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ac5a3747e921b1411ef94ca48a6f7c31f}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ac5a3747e921b1411ef94ca48a6f7c31f} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getDestinationAirport@{getDestinationAirport}}
@@ -164,8 +206,12 @@ A String representing the gate the Flight will depart from
 \doxysubsubsection{\texorpdfstring{getDestinationAirport()}{getDestinationAirport()}}
 {\footnotesize\ttfamily String Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Destination\+Airport (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Destination\+Airport method takes no parameters and returns the three-\/letter code for the Flight\textquotesingle{}s airport of destination \begin{DoxyReturn}{Returns}
-A String representing the three-\/letter airport code 
+
+
+Retrieves the three-\/letter code for the Flight\textquotesingle{}s airport of destination. 
+
+The get\+Destination\+Airport method takes no parameters and returns the three-\/letter code for the Flight\textquotesingle{}s airport of destination. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A String representing the three-\/letter airport code. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_aaac88b16f1eb164ab2bab5166a6f0d09}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_aaac88b16f1eb164ab2bab5166a6f0d09} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getFirstClassSeatsFilled@{getFirstClassSeatsFilled}}
@@ -173,8 +219,12 @@ A String representing the three-\/letter airport code
 \doxysubsubsection{\texorpdfstring{getFirstClassSeatsFilled()}{getFirstClassSeatsFilled()}}
 {\footnotesize\ttfamily int Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+First\+Class\+Seats\+Filled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+First\+Class\+Seats\+Filled method takes no parameters and returns the number of first class seats already filled for the flight \begin{DoxyReturn}{Returns}
-An integer representing the number of first class seats already filled 
+
+
+Retrieves the number of first class seats already filled for the flight. 
+
+The get\+First\+Class\+Seats\+Filled method takes no parameters and returns the number of first class seats already filled for the flight. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+An integer representing the number of first class seats already filled. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a27169e870ad8b101f017f4ab27134cc6}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a27169e870ad8b101f017f4ab27134cc6} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getFlightNumber@{getFlightNumber}}
@@ -182,8 +232,12 @@ An integer representing the number of first class seats already filled
 \doxysubsubsection{\texorpdfstring{getFlightNumber()}{getFlightNumber()}}
 {\footnotesize\ttfamily String Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Flight\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Flight\+Number method takes no parameters and returns the Flight\textquotesingle{}s four-\/digit ID number \begin{DoxyReturn}{Returns}
-An integer representing the four-\/digit flight identification number 
+
+
+Retrieves the Flight\textquotesingle{}s four-\/digit ID number. 
+
+The get\+Flight\+Number method takes no parameters and returns the Flight\textquotesingle{}s four-\/digit ID number. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A String representing the four-\/digit flight identification number. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a28f78994a0813fac1b264e83556b5301}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a28f78994a0813fac1b264e83556b5301} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getOriginAirport@{getOriginAirport}}
@@ -191,8 +245,12 @@ An integer representing the four-\/digit flight identification number
 \doxysubsubsection{\texorpdfstring{getOriginAirport()}{getOriginAirport()}}
 {\footnotesize\ttfamily String Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Origin\+Airport (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Origin\+Airport method takes no parameters and returns the three-\/letter code for the Flight\textquotesingle{}s airport of origin \begin{DoxyReturn}{Returns}
-A String representing the three-\/letter airport code 
+
+
+Retrieves the three-\/letter code for the Flight\textquotesingle{}s airport of origin. 
+
+The get\+Origin\+Airport method takes no parameters and returns the three-\/letter code for the Flight\textquotesingle{}s airport of origin. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A String representing the three-\/letter airport code. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ad81ca5bc6326b58d01909f1a053edacc}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ad81ca5bc6326b58d01909f1a053edacc} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getPlaneType@{getPlaneType}}
@@ -200,8 +258,12 @@ A String representing the three-\/letter airport code
 \doxysubsubsection{\texorpdfstring{getPlaneType()}{getPlaneType()}}
 {\footnotesize\ttfamily String Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Plane\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Plane\+Type method takes no parameters and returns the type of plane the Flight will be on \begin{DoxyReturn}{Returns}
-A String representing the type of plane for the Flight 
+
+
+Retrieves the type of plane the Flight will be on. 
+
+The get\+Plane\+Type method takes no parameters and returns the type of plane the Flight will be on. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A String representing the type of plane for the Flight. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ab07a248b93c8119672b93baef410436e}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ab07a248b93c8119672b93baef410436e} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getPlannedArrival@{getPlannedArrival}}
@@ -209,8 +271,12 @@ A String representing the type of plane for the Flight
 \doxysubsubsection{\texorpdfstring{getPlannedArrival()}{getPlannedArrival()}}
 {\footnotesize\ttfamily Date Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Planned\+Arrival (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Planned\+Arrival method takes no parameters and returns the Date (including time) of the Flight\textquotesingle{}s planned arrival \begin{DoxyReturn}{Returns}
-A Date representing the planned date and time of arrival 
+
+
+Retrieves the planned date and time of arrival for the Flight. 
+
+The get\+Planned\+Arrival method takes no parameters and returns the Date (including time) of the Flight\textquotesingle{}s planned arrival. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A Date representing the planned date and time of arrival. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a03e90bf5052b513e0918a9b202bc8d18}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a03e90bf5052b513e0918a9b202bc8d18} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!getPlannedDeparture@{getPlannedDeparture}}
@@ -218,8 +284,12 @@ A Date representing the planned date and time of arrival
 \doxysubsubsection{\texorpdfstring{getPlannedDeparture()}{getPlannedDeparture()}}
 {\footnotesize\ttfamily Date Wright\+Flight\+Manager.\+MODEL.\+Flight.\+get\+Planned\+Departure (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Planned\+Departure method takes no parameters and returns the Date (including time) of the Flight\textquotesingle{}s planned departure \begin{DoxyReturn}{Returns}
-A Date representing the planned date and time of departure 
+
+
+Retrieves the planned date and time of departure for the Flight. 
+
+The get\+Planned\+Departure method takes no parameters and returns the Date (including time) of the Flight\textquotesingle{}s planned departure. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} \begin{DoxyReturn}{Returns}
+A Date representing the planned date and time of departure. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a2c85625566b34fae218fa70dc7930955}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a2c85625566b34fae218fa70dc7930955} 
 \index{WrightFlightManager.MODEL.Flight@{WrightFlightManager.MODEL.Flight}!setActualArrival@{setActualArrival}}
@@ -227,9 +297,13 @@ A Date representing the planned date and time of departure
 \doxysubsubsection{\texorpdfstring{setActualArrival()}{setActualArrival()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Actual\+Arrival (\begin{DoxyParamCaption}\item[{Date}]{actual\+Arrival }\end{DoxyParamCaption})}
 
-The set\+Actual\+Arrival method takes a Date (including time) to set the Flight\textquotesingle{}s actual arrival date/time 
+
+
+Sets the actual date and time of arrival for the Flight. 
+
+The set\+Actual\+Arrival method takes a Date (including time) to set the Flight\textquotesingle{}s actual arrival date/time. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em actual\+Arrival} & A Date representing the actual date and time of arrival \\
+{\em actual\+Arrival} & A Date representing the actual date and time of arrival. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a8718403072d7db6b93c2a12017fb7059}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a8718403072d7db6b93c2a12017fb7059} 
@@ -238,9 +312,13 @@ The set\+Actual\+Arrival method takes a Date (including time) to set the Flight\
 \doxysubsubsection{\texorpdfstring{setActualDeparture()}{setActualDeparture()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Actual\+Departure (\begin{DoxyParamCaption}\item[{Date}]{actual\+Departure }\end{DoxyParamCaption})}
 
-The set\+Actual\+Departure method takes a Date (including time) to set the Flight\textquotesingle{}s actual departure date/time 
+
+
+Sets the actual date and time of departure for the Flight. 
+
+The set\+Actual\+Departure method takes a Date (including time) to set the Flight\textquotesingle{}s actual departure date/time. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em actual\+Departure} & A Date representing the actual date and time of departure \\
+{\em actual\+Departure} & A Date representing the actual date and time of departure. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ab3d4fa1a10395f9ee40b65778b39741a}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ab3d4fa1a10395f9ee40b65778b39741a} 
@@ -249,9 +327,13 @@ The set\+Actual\+Departure method takes a Date (including time) to set the Fligh
 \doxysubsubsection{\texorpdfstring{setArrivalGate()}{setArrivalGate()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Arrival\+Gate (\begin{DoxyParamCaption}\item[{String}]{arrival\+Gate }\end{DoxyParamCaption})}
 
-The set\+Arrival\+Gate method takes a single String as a parameter and sets the Flight\textquotesingle{}s arrival gate 
+
+
+Sets the gate at which the Flight will arrive. 
+
+The set\+Arrival\+Gate method takes a single String as a parameter and sets the Flight\textquotesingle{}s arrival gate. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em arrival\+Gate} & A String representing the gate the flight will arrive at \\
+{\em arrival\+Gate} & A String representing the gate the flight will arrive at. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a37d32dba57f25337572329e4e7476e8e}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a37d32dba57f25337572329e4e7476e8e} 
@@ -260,9 +342,13 @@ The set\+Arrival\+Gate method takes a single String as a parameter and sets the 
 \doxysubsubsection{\texorpdfstring{setCoachClassSeatsFilled()}{setCoachClassSeatsFilled()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Coach\+Class\+Seats\+Filled (\begin{DoxyParamCaption}\item[{int}]{coach\+Class\+Seats\+Filled }\end{DoxyParamCaption})}
 
-The set\+Coach\+Class\+Seats\+Filled method takes an integer as a parameter and sets the Flight\textquotesingle{}s number of coach class seats that are already filled 
+
+
+Sets the number of coach class seats already filled for the Flight. 
+
+The set\+Coach\+Class\+Seats\+Filled method takes an integer as a parameter and sets the Flight\textquotesingle{}s number of coach class seats that are already filled. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em coach\+Class\+Seats\+Filled} & An integer representing the number of coach class seats already filled \\
+{\em coach\+Class\+Seats\+Filled} & An integer representing the number of coach class seats already filled. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a0599d66b15b7faebf4f86d2612df0729}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a0599d66b15b7faebf4f86d2612df0729} 
@@ -271,9 +357,13 @@ The set\+Coach\+Class\+Seats\+Filled method takes an integer as a parameter and 
 \doxysubsubsection{\texorpdfstring{setDepartureGate()}{setDepartureGate()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Departure\+Gate (\begin{DoxyParamCaption}\item[{String}]{departure\+Gate }\end{DoxyParamCaption})}
 
-The set\+Departure\+Gate method takes a single String as a parameter and sets the Flight\textquotesingle{}s departure gate 
+
+
+Sets the gate from which the Flight will depart. 
+
+The set\+Departure\+Gate method takes a single String as a parameter and sets the Flight\textquotesingle{}s departure gate. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em departure\+Gate} & A String representing the gate the flight will depart from \\
+{\em departure\+Gate} & A String representing the gate the flight will depart from. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a120e03837f38b0454944e8b60528eb23}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a120e03837f38b0454944e8b60528eb23} 
@@ -282,9 +372,13 @@ The set\+Departure\+Gate method takes a single String as a parameter and sets th
 \doxysubsubsection{\texorpdfstring{setDestinationAirport()}{setDestinationAirport()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Destination\+Airport (\begin{DoxyParamCaption}\item[{String}]{destination\+Airport }\end{DoxyParamCaption})}
 
-The set\+Destination\+Airport method takes a single String as a parameter and sets that to the destination airport 
+
+
+Sets the airport of destination for the Flight. 
+
+The set\+Destination\+Airport method takes a single String as a parameter and sets that to the destination airport. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em destination\+Airport} & A String representing the three-\/letter airport code for the destination airport \\
+{\em destination\+Airport} & A String representing the three-\/letter airport code for the destination airport. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a4428d1419265a74f1204234f4eee6519}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a4428d1419265a74f1204234f4eee6519} 
@@ -293,9 +387,13 @@ The set\+Destination\+Airport method takes a single String as a parameter and se
 \doxysubsubsection{\texorpdfstring{setFirstClassSeatsFilled()}{setFirstClassSeatsFilled()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+First\+Class\+Seats\+Filled (\begin{DoxyParamCaption}\item[{int}]{first\+Class\+Seats\+Filled }\end{DoxyParamCaption})}
 
-The set\+First\+Class\+Seats\+Filled method takes an integer as a parameter and sets the Flight\textquotesingle{}s number of first class seats that are already filled 
+
+
+Sets the number of first class seats already filled for the Flight. 
+
+The set\+First\+Class\+Seats\+Filled method takes an integer as a parameter and sets the Flight\textquotesingle{}s number of first class seats that are already filled. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em first\+Class\+Seats\+Filled} & An integer representing the number of first class seats already filled \\
+{\em first\+Class\+Seats\+Filled} & An integer representing the number of first class seats already filled. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ae3e8181ab8eb248afa5ae25e7e19cfc6}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ae3e8181ab8eb248afa5ae25e7e19cfc6} 
@@ -304,9 +402,13 @@ The set\+First\+Class\+Seats\+Filled method takes an integer as a parameter and 
 \doxysubsubsection{\texorpdfstring{setOriginAirport()}{setOriginAirport()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Origin\+Airport (\begin{DoxyParamCaption}\item[{String}]{origin\+Airport }\end{DoxyParamCaption})}
 
-The set\+Origin\+Airport method takes a single String as a parameter and sets that to the airport of origin 
+
+
+Sets the airport of origin for the Flight. 
+
+The set\+Origin\+Airport method takes a single String as a parameter and sets that to the airport of origin. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em origin\+Airport} & A String representing the three-\/letter airport code for the origin airport \\
+{\em origin\+Airport} & A String representing the three-\/letter airport code for the origin airport. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ad482bc040f33d33ade5dd0eb579d5b93}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_ad482bc040f33d33ade5dd0eb579d5b93} 
@@ -315,9 +417,13 @@ The set\+Origin\+Airport method takes a single String as a parameter and sets th
 \doxysubsubsection{\texorpdfstring{setPlaneType()}{setPlaneType()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Plane\+Type (\begin{DoxyParamCaption}\item[{String}]{plane\+Type }\end{DoxyParamCaption})}
 
-The set\+Plane\+Type method takes a single String as a parameter and sets that to the type of plane the flight will use 
+
+
+Sets the type of plane the Flight will use. 
+
+The set\+Plane\+Type method takes a single String as a parameter and sets that to the type of plane the flight will use. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em plane\+Type} & A String representing the type of plane for the flight \\
+{\em plane\+Type} & A String representing the type of plane for the flight. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a9a606287fa311087a571bae219666f2c}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a9a606287fa311087a571bae219666f2c} 
@@ -326,9 +432,13 @@ The set\+Plane\+Type method takes a single String as a parameter and sets that t
 \doxysubsubsection{\texorpdfstring{setPlannedArrival()}{setPlannedArrival()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Planned\+Arrival (\begin{DoxyParamCaption}\item[{Date}]{planned\+Arrival }\end{DoxyParamCaption})}
 
-The set\+Planned\+Arrival method takes a Date (including time) to set the Flight\textquotesingle{}s planned arrival date/time 
+
+
+Sets the planned date and time of arrival for the Flight. 
+
+The set\+Planned\+Arrival method takes a Date (including time) to set the Flight\textquotesingle{}s planned arrival date/time. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em planned\+Arrival} & A Date representing the planned date and time of arrival \\
+{\em planned\+Arrival} & A Date representing the planned date and time of arrival. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a170ac42bc48ded3b235b01a2b681f9d6}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight_a170ac42bc48ded3b235b01a2b681f9d6} 
@@ -337,13 +447,17 @@ The set\+Planned\+Arrival method takes a Date (including time) to set the Flight
 \doxysubsubsection{\texorpdfstring{setPlannedDeparture()}{setPlannedDeparture()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Flight.\+set\+Planned\+Departure (\begin{DoxyParamCaption}\item[{Date}]{planned\+Departure }\end{DoxyParamCaption})}
 
-The set\+Planned\+Departure method takes a Date (including time) to set the Flight\textquotesingle{}s planned departure date/time 
+
+
+Sets the planned date and time of departure for the Flight. 
+
+The set\+Planned\+Departure method takes a Date (including time) to set the Flight\textquotesingle{}s planned departure date/time. Linked Issue\+: \#73 \href{https://github.com/WSUCEG-7140/TeamF/issues/73}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/73}} 
 \begin{DoxyParams}{Parameters}
-{\em planned\+Departure} & A Date representing the planned date and time of departure \\
+{\em planned\+Departure} & A Date representing the planned date and time of departure. \\
 \hline
 \end{DoxyParams}
 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/briandavis/\+Documents/\+Wright State/\+CS7140/\+Team\+F/src/main/java/\+Wright\+Flight\+Manager/\+MODEL/Flight.\+java\end{DoxyCompactItemize}
+main/java/\+Wright\+Flight\+Manager/\+MODEL/Flight.\+java\end{DoxyCompactItemize}

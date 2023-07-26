@@ -1,19 +1,29 @@
 \doxysection{Wright\+Flight\+Manager.\+MODEL.\+Role Class Reference}
 \hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role}{}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role}\index{WrightFlightManager.MODEL.Role@{WrightFlightManager.MODEL.Role}}
+
+
+This class represents a role with its ID number and title.  
+
+
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_af0423d16feafc61b61a14eb74b2a3f26}{Role}} (int role\+Id, String role\+Title)
 \item 
 int \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a6367d30657cb2d49d1e9054525cbbf0e}{get\+Role\+Id}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the ID number of the role. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a1ccbe4a7dc41ebad06f0677f5fc37a3b}{set\+Role\+Id}} (int role\+Id)
-\item 
+\begin{DoxyCompactList}\small\item\em Sets the ID number of the role. \end{DoxyCompactList}\item 
 String \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a533c0f8b0c55e6b0aa90e32c7b1442bc}{get\+Role\+Title}} ()
-\item 
+\begin{DoxyCompactList}\small\item\em Retrieves the title of the role. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a060c7a3eec2047bcf3d689ce3dcf2799}{set\+Role\+Title}} (String role\+Title)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Sets the title of the role. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
+
+\doxysubsection{Detailed Description}
+This class represents a role with its ID number and title. 
+
+The Role class encapsulates information about a role, including its unique ID number and its title. Objects of this class can be used to store and retrieve role-\/related information in the Wright\+Flight\+Manager application. 
 
 \doxysubsection{Constructor \& Destructor Documentation}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_af0423d16feafc61b61a14eb74b2a3f26}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_af0423d16feafc61b61a14eb74b2a3f26} 
@@ -22,11 +32,11 @@ void \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a060c7a
 \doxysubsubsection{\texorpdfstring{Role()}{Role()}}
 {\footnotesize\ttfamily Wright\+Flight\+Manager.\+MODEL.\+Role.\+Role (\begin{DoxyParamCaption}\item[{int}]{role\+Id,  }\item[{String}]{role\+Title }\end{DoxyParamCaption})}
 
-The Role constructor creates a new Role object and requires both parameters (cannot build a Role object with a non-\/parameterized constructor) 
+The Role constructor creates a new Role object and requires both parameters (cannot build a Role object with a non-\/parameterized constructor). Linked Issue\+: \#74 \href{https://github.com/WSUCEG-7140/TeamF/issues/74}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/74}} 
 \begin{DoxyParams}{Parameters}
-{\em role\+Id} & An integer identifying the role \\
+{\em role\+Id} & An integer identifying the role. \\
 \hline
-{\em role\+Title} & A String representing the name of the role \\
+{\em role\+Title} & A String representing the name of the role. \\
 \hline
 \end{DoxyParams}
 
@@ -38,8 +48,12 @@ The Role constructor creates a new Role object and requires both parameters (can
 \doxysubsubsection{\texorpdfstring{getRoleId()}{getRoleId()}}
 {\footnotesize\ttfamily int Wright\+Flight\+Manager.\+MODEL.\+Role.\+get\+Role\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Role\+Id method takes no parameters and returns the role\textquotesingle{}s ID number \begin{DoxyReturn}{Returns}
-An integer representing the role\textquotesingle{}s ID number 
+
+
+Retrieves the ID number of the role. 
+
+The get\+Role\+Id method takes no parameters and returns the role\textquotesingle{}s ID number. Linked Issue\+: \#74 \href{https://github.com/WSUCEG-7140/TeamF/issues/74}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/74}} \begin{DoxyReturn}{Returns}
+An integer representing the role\textquotesingle{}s ID number. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a533c0f8b0c55e6b0aa90e32c7b1442bc}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a533c0f8b0c55e6b0aa90e32c7b1442bc} 
 \index{WrightFlightManager.MODEL.Role@{WrightFlightManager.MODEL.Role}!getRoleTitle@{getRoleTitle}}
@@ -47,8 +61,12 @@ An integer representing the role\textquotesingle{}s ID number
 \doxysubsubsection{\texorpdfstring{getRoleTitle()}{getRoleTitle()}}
 {\footnotesize\ttfamily String Wright\+Flight\+Manager.\+MODEL.\+Role.\+get\+Role\+Title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-The get\+Roll\+Title method takes no parameters and returns the roll\textquotesingle{}s title \begin{DoxyReturn}{Returns}
-A String representing the name of the role 
+
+
+Retrieves the title of the role. 
+
+The get\+Role\+Title method takes no parameters and returns the role\textquotesingle{}s title. Linked Issue\+: \#74 \href{https://github.com/WSUCEG-7140/TeamF/issues/74}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/74}} \begin{DoxyReturn}{Returns}
+A String representing the name of the role. 
 \end{DoxyReturn}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a1ccbe4a7dc41ebad06f0677f5fc37a3b}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a1ccbe4a7dc41ebad06f0677f5fc37a3b} 
 \index{WrightFlightManager.MODEL.Role@{WrightFlightManager.MODEL.Role}!setRoleId@{setRoleId}}
@@ -56,9 +74,13 @@ A String representing the name of the role
 \doxysubsubsection{\texorpdfstring{setRoleId()}{setRoleId()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Role.\+set\+Role\+Id (\begin{DoxyParamCaption}\item[{int}]{role\+Id }\end{DoxyParamCaption})}
 
-The set\+Role\+Id method takes an integer as a parameter to update a role\+Id 
+
+
+Sets the ID number of the role. 
+
+The set\+Role\+Id method takes an integer as a parameter to update a role\+Id. Linked Issue\+: \#74 \href{https://github.com/WSUCEG-7140/TeamF/issues/74}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/74}} 
 \begin{DoxyParams}{Parameters}
-{\em role\+Id} & An integer to change the role\textquotesingle{}s ID number to \\
+{\em role\+Id} & An integer to change the role\textquotesingle{}s ID number to. \\
 \hline
 \end{DoxyParams}
 \Hypertarget{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a060c7a3eec2047bcf3d689ce3dcf2799}\label{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_role_a060c7a3eec2047bcf3d689ce3dcf2799} 
@@ -67,13 +89,17 @@ The set\+Role\+Id method takes an integer as a parameter to update a role\+Id
 \doxysubsubsection{\texorpdfstring{setRoleTitle()}{setRoleTitle()}}
 {\footnotesize\ttfamily void Wright\+Flight\+Manager.\+MODEL.\+Role.\+set\+Role\+Title (\begin{DoxyParamCaption}\item[{String}]{role\+Title }\end{DoxyParamCaption})}
 
-The set\+Roll\+Title method takes a String as a parameter to update the title of a roll 
+
+
+Sets the title of the role. 
+
+The set\+Role\+Title method takes a String as a parameter to update the title of a role. Linked Issue\+: \#74 \href{https://github.com/WSUCEG-7140/TeamF/issues/74}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/74}} 
 \begin{DoxyParams}{Parameters}
-{\em role\+Title} & A String to change the role\textquotesingle{}s title to \\
+{\em role\+Title} & A String to change the role\textquotesingle{}s title to. \\
 \hline
 \end{DoxyParams}
 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-/\+Users/briandavis/\+Documents/\+Wright State/\+CS7140/\+Team\+F/src/main/java/\+Wright\+Flight\+Manager/\+MODEL/Role.\+java\end{DoxyCompactItemize}
+main/java/\+Wright\+Flight\+Manager/\+MODEL/Role.\+java\end{DoxyCompactItemize}

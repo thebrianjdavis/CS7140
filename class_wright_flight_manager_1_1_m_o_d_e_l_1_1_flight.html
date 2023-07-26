@@ -27,7 +27,7 @@
   <td id="projectalign">
    <div id="projectname">WrightFlightManager
    </div>
-   <div id="projectbrief">Airline Control System</div>
+   <div id="projectbrief">This project models an airline control system to manage passengers, baggage, and flight attendants traveling via the airline.</div>
   </td>
  </tr>
  </tbody>
@@ -96,61 +96,92 @@ $(document).ready(function(){initNavTree('class_wright_flight_manager_1_1_m_o_d_
   <div class="headertitle"><div class="title">WrightFlightManager.MODEL.Flight Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class represents a flight with its attributes and methods.  
+ <a href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6055a953a9841919231262fc5e2f07b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a6055a953a9841919231262fc5e2f07b6">Flight</a> (String flightNumber, String originAirport, String destinationAirport, String planeType, Date plannedDeparture, Date plannedArrival, String departureGate, String arrivalGate)</td></tr>
+<tr class="memdesc:a6055a953a9841919231262fc5e2f07b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This parameterized constructor is for creating a new flight entry in the database and initializes the variables for firstClassSeatsFilled and coachClassSeatsFilled to zero.  <br /></td></tr>
 <tr class="separator:a6055a953a9841919231262fc5e2f07b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a163f7e82ed5844ca019df5d1802014e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a163f7e82ed5844ca019df5d1802014e6">Flight</a> (String flightNumber, String originAirport, String destinationAirport, String planeType, Date plannedDeparture, Date plannedArrival, Date actualDeparture, Date actualArrival, String departureGate, String arrivalGate, int firstClassSeatsFilled, int coachClassSeatsFilled)</td></tr>
+<tr class="memdesc:a163f7e82ed5844ca019df5d1802014e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This parameterized constructor is for Flight objects that already exist and are read-in from the Flights database file.  <br /></td></tr>
 <tr class="separator:a163f7e82ed5844ca019df5d1802014e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27169e870ad8b101f017f4ab27134cc6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a27169e870ad8b101f017f4ab27134cc6">getFlightNumber</a> ()</td></tr>
+<tr class="memdesc:a27169e870ad8b101f017f4ab27134cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the Flight's four-digit ID number.  <br /></td></tr>
 <tr class="separator:a27169e870ad8b101f017f4ab27134cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28f78994a0813fac1b264e83556b5301"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a28f78994a0813fac1b264e83556b5301">getOriginAirport</a> ()</td></tr>
+<tr class="memdesc:a28f78994a0813fac1b264e83556b5301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the three-letter code for the Flight's airport of origin.  <br /></td></tr>
 <tr class="separator:a28f78994a0813fac1b264e83556b5301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3e8181ab8eb248afa5ae25e7e19cfc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#ae3e8181ab8eb248afa5ae25e7e19cfc6">setOriginAirport</a> (String originAirport)</td></tr>
+<tr class="memdesc:ae3e8181ab8eb248afa5ae25e7e19cfc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the airport of origin for the Flight.  <br /></td></tr>
 <tr class="separator:ae3e8181ab8eb248afa5ae25e7e19cfc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5a3747e921b1411ef94ca48a6f7c31f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#ac5a3747e921b1411ef94ca48a6f7c31f">getDestinationAirport</a> ()</td></tr>
+<tr class="memdesc:ac5a3747e921b1411ef94ca48a6f7c31f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the three-letter code for the Flight's airport of destination.  <br /></td></tr>
 <tr class="separator:ac5a3747e921b1411ef94ca48a6f7c31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a120e03837f38b0454944e8b60528eb23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a120e03837f38b0454944e8b60528eb23">setDestinationAirport</a> (String destinationAirport)</td></tr>
+<tr class="memdesc:a120e03837f38b0454944e8b60528eb23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the airport of destination for the Flight.  <br /></td></tr>
 <tr class="separator:a120e03837f38b0454944e8b60528eb23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad81ca5bc6326b58d01909f1a053edacc"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#ad81ca5bc6326b58d01909f1a053edacc">getPlaneType</a> ()</td></tr>
+<tr class="memdesc:ad81ca5bc6326b58d01909f1a053edacc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the type of plane the Flight will be on.  <br /></td></tr>
 <tr class="separator:ad81ca5bc6326b58d01909f1a053edacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad482bc040f33d33ade5dd0eb579d5b93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#ad482bc040f33d33ade5dd0eb579d5b93">setPlaneType</a> (String planeType)</td></tr>
+<tr class="memdesc:ad482bc040f33d33ade5dd0eb579d5b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the type of plane the Flight will use.  <br /></td></tr>
 <tr class="separator:ad482bc040f33d33ade5dd0eb579d5b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03e90bf5052b513e0918a9b202bc8d18"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a03e90bf5052b513e0918a9b202bc8d18">getPlannedDeparture</a> ()</td></tr>
+<tr class="memdesc:a03e90bf5052b513e0918a9b202bc8d18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the planned date and time of departure for the Flight.  <br /></td></tr>
 <tr class="separator:a03e90bf5052b513e0918a9b202bc8d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a170ac42bc48ded3b235b01a2b681f9d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a170ac42bc48ded3b235b01a2b681f9d6">setPlannedDeparture</a> (Date plannedDeparture)</td></tr>
+<tr class="memdesc:a170ac42bc48ded3b235b01a2b681f9d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the planned date and time of departure for the Flight.  <br /></td></tr>
 <tr class="separator:a170ac42bc48ded3b235b01a2b681f9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab07a248b93c8119672b93baef410436e"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#ab07a248b93c8119672b93baef410436e">getPlannedArrival</a> ()</td></tr>
+<tr class="memdesc:ab07a248b93c8119672b93baef410436e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the planned date and time of arrival for the Flight.  <br /></td></tr>
 <tr class="separator:ab07a248b93c8119672b93baef410436e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a606287fa311087a571bae219666f2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a9a606287fa311087a571bae219666f2c">setPlannedArrival</a> (Date plannedArrival)</td></tr>
+<tr class="memdesc:a9a606287fa311087a571bae219666f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the planned date and time of arrival for the Flight.  <br /></td></tr>
 <tr class="separator:a9a606287fa311087a571bae219666f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9828277b5aaf4509eb69b39cca22018b"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a9828277b5aaf4509eb69b39cca22018b">getActualDeparture</a> ()</td></tr>
+<tr class="memdesc:a9828277b5aaf4509eb69b39cca22018b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the actual date and time of departure for the Flight.  <br /></td></tr>
 <tr class="separator:a9828277b5aaf4509eb69b39cca22018b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8718403072d7db6b93c2a12017fb7059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a8718403072d7db6b93c2a12017fb7059">setActualDeparture</a> (Date actualDeparture)</td></tr>
+<tr class="memdesc:a8718403072d7db6b93c2a12017fb7059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the actual date and time of departure for the Flight.  <br /></td></tr>
 <tr class="separator:a8718403072d7db6b93c2a12017fb7059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afde1f03a22b112de1928a1f7e345dea6"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#afde1f03a22b112de1928a1f7e345dea6">getActualArrival</a> ()</td></tr>
+<tr class="memdesc:afde1f03a22b112de1928a1f7e345dea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the actual date and time of arrival for the Flight.  <br /></td></tr>
 <tr class="separator:afde1f03a22b112de1928a1f7e345dea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c85625566b34fae218fa70dc7930955"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a2c85625566b34fae218fa70dc7930955">setActualArrival</a> (Date actualArrival)</td></tr>
+<tr class="memdesc:a2c85625566b34fae218fa70dc7930955"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the actual date and time of arrival for the Flight.  <br /></td></tr>
 <tr class="separator:a2c85625566b34fae218fa70dc7930955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a46ee065ae102df5f86a3795d706c7c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a9a46ee065ae102df5f86a3795d706c7c">getDepartureGate</a> ()</td></tr>
+<tr class="memdesc:a9a46ee065ae102df5f86a3795d706c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the gate the Flight will depart from.  <br /></td></tr>
 <tr class="separator:a9a46ee065ae102df5f86a3795d706c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0599d66b15b7faebf4f86d2612df0729"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a0599d66b15b7faebf4f86d2612df0729">setDepartureGate</a> (String departureGate)</td></tr>
+<tr class="memdesc:a0599d66b15b7faebf4f86d2612df0729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the gate from which the Flight will depart.  <br /></td></tr>
 <tr class="separator:a0599d66b15b7faebf4f86d2612df0729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a270c91bc256164d3207d8e0e5b7e2f5f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a270c91bc256164d3207d8e0e5b7e2f5f">getArrivalGate</a> ()</td></tr>
+<tr class="memdesc:a270c91bc256164d3207d8e0e5b7e2f5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the gate the Flight will arrive at.  <br /></td></tr>
 <tr class="separator:a270c91bc256164d3207d8e0e5b7e2f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3d4fa1a10395f9ee40b65778b39741a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#ab3d4fa1a10395f9ee40b65778b39741a">setArrivalGate</a> (String arrivalGate)</td></tr>
+<tr class="memdesc:ab3d4fa1a10395f9ee40b65778b39741a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the gate at which the Flight will arrive.  <br /></td></tr>
 <tr class="separator:ab3d4fa1a10395f9ee40b65778b39741a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaac88b16f1eb164ab2bab5166a6f0d09"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#aaac88b16f1eb164ab2bab5166a6f0d09">getFirstClassSeatsFilled</a> ()</td></tr>
+<tr class="memdesc:aaac88b16f1eb164ab2bab5166a6f0d09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the number of first class seats already filled for the flight.  <br /></td></tr>
 <tr class="separator:aaac88b16f1eb164ab2bab5166a6f0d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4428d1419265a74f1204234f4eee6519"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a4428d1419265a74f1204234f4eee6519">setFirstClassSeatsFilled</a> (int firstClassSeatsFilled)</td></tr>
+<tr class="memdesc:a4428d1419265a74f1204234f4eee6519"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of first class seats already filled for the Flight.  <br /></td></tr>
 <tr class="separator:a4428d1419265a74f1204234f4eee6519"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f8fddf1be721ae8a04d4f1db4341b4c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a6f8fddf1be721ae8a04d4f1db4341b4c">getCoachClassSeatsFilled</a> ()</td></tr>
+<tr class="memdesc:a6f8fddf1be721ae8a04d4f1db4341b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the number of coach class seats already filled for the flight.  <br /></td></tr>
 <tr class="separator:a6f8fddf1be721ae8a04d4f1db4341b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37d32dba57f25337572329e4e7476e8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight.html#a37d32dba57f25337572329e4e7476e8e">setCoachClassSeatsFilled</a> (int coachClassSeatsFilled)</td></tr>
+<tr class="memdesc:a37d32dba57f25337572329e4e7476e8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of coach class seats already filled for the Flight.  <br /></td></tr>
 <tr class="separator:a37d32dba57f25337572329e4e7476e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This class represents a flight with its attributes and methods. </p>
+<p>The Flight class encapsulates information about a flight, including its flight number, origin and destination airports, plane type, planned departure and arrival dates, actual departure and arrival dates, departure and arrival gates, and the number of filled seats in first class and coach class. Objects of this class can be used to store and retrieve flight-related information in the WrightFlightManager application. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6055a953a9841919231262fc5e2f07b6" name="a6055a953a9841919231262fc5e2f07b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6055a953a9841919231262fc5e2f07b6">&#9670;&#160;</a></span>Flight() <span class="overload">[1/2]</span></h2>
 
@@ -212,16 +243,18 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This parameterized constructor is for the creation of a new flight entry in the database and will initialize the variables for firstClassSeatsFilled and coachClassSeatsFilled to zero </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>This parameterized constructor is for creating a new flight entry in the database and initializes the variables for firstClassSeatsFilled and coachClassSeatsFilled to zero. </p>
+<p>Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">flightNumber</td><td>A String representing the four digit flight number </td></tr>
-    <tr><td class="paramname">originAirport</td><td>A String representing the three-letter airport code of origin </td></tr>
-    <tr><td class="paramname">destinationAirport</td><td>A String representing the three-letter airport code of destination </td></tr>
-    <tr><td class="paramname">planeType</td><td>A String representing the type of plane the flight will use </td></tr>
-    <tr><td class="paramname">plannedDeparture</td><td>A Date representing the planned date and time of departure </td></tr>
-    <tr><td class="paramname">plannedArrival</td><td>A Date representing the planned date and time of arrival </td></tr>
-    <tr><td class="paramname">departureGate</td><td>A String representing the gate the flight will depart from </td></tr>
-    <tr><td class="paramname">arrivalGate</td><td>A String representing the gate the flight will arrive at </td></tr>
+    <tr><td class="paramname">flightNumber</td><td>A String representing the four-digit flight number. </td></tr>
+    <tr><td class="paramname">originAirport</td><td>A String representing the three-letter airport code of origin. </td></tr>
+    <tr><td class="paramname">destinationAirport</td><td>A String representing the three-letter airport code of destination. </td></tr>
+    <tr><td class="paramname">planeType</td><td>A String representing the type of plane the flight will use. </td></tr>
+    <tr><td class="paramname">plannedDeparture</td><td>A Date representing the planned date and time of departure. </td></tr>
+    <tr><td class="paramname">plannedArrival</td><td>A Date representing the planned date and time of arrival. </td></tr>
+    <tr><td class="paramname">departureGate</td><td>A String representing the gate the flight will depart from. </td></tr>
+    <tr><td class="paramname">arrivalGate</td><td>A String representing the gate the flight will arrive at. </td></tr>
   </table>
   </dd>
 </dl>
@@ -313,18 +346,22 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This parameterized constructor is for Flight objects that already exist and are read-in from the Flights database file </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>This parameterized constructor is for Flight objects that already exist and are read-in from the Flights database file. </p>
+<p>Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">flightNumber</td><td>A String representing the four digit flight number </td></tr>
-    <tr><td class="paramname">originAirport</td><td>A String representing the three-letter airport code of origin </td></tr>
-    <tr><td class="paramname">destinationAirport</td><td>A String representing the three-letter airport code of destination </td></tr>
-    <tr><td class="paramname">planeType</td><td>A String representing the type of plane the flight will use </td></tr>
-    <tr><td class="paramname">plannedDeparture</td><td>A Date representing the planned date and time of departure </td></tr>
-    <tr><td class="paramname">plannedArrival</td><td>A Date representing the planned date and time of arrival </td></tr>
-    <tr><td class="paramname">departureGate</td><td>A String representing the gate the flight will depart from </td></tr>
-    <tr><td class="paramname">arrivalGate</td><td>A String representing the gate the flight will arrive at </td></tr>
-    <tr><td class="paramname">firstClassSeatsFilled</td><td>An integer representing the number of first class seats already filled </td></tr>
-    <tr><td class="paramname">coachClassSeatsFilled</td><td>An integer representing the number of coach class seats already filled </td></tr>
+    <tr><td class="paramname">flightNumber</td><td>A String representing the four-digit flight number. </td></tr>
+    <tr><td class="paramname">originAirport</td><td>A String representing the three-letter airport code of origin. </td></tr>
+    <tr><td class="paramname">destinationAirport</td><td>A String representing the three-letter airport code of destination. </td></tr>
+    <tr><td class="paramname">planeType</td><td>A String representing the type of plane the flight will use. </td></tr>
+    <tr><td class="paramname">plannedDeparture</td><td>A Date representing the planned date and time of departure. </td></tr>
+    <tr><td class="paramname">plannedArrival</td><td>A Date representing the planned date and time of arrival. </td></tr>
+    <tr><td class="paramname">actualDeparture</td><td>A Date representing the actual date and time of departure. </td></tr>
+    <tr><td class="paramname">actualArrival</td><td>A Date representing the actual date and time of arrival. </td></tr>
+    <tr><td class="paramname">departureGate</td><td>A String representing the gate the flight will depart from. </td></tr>
+    <tr><td class="paramname">arrivalGate</td><td>A String representing the gate the flight will arrive at. </td></tr>
+    <tr><td class="paramname">firstClassSeatsFilled</td><td>An integer representing the number of first class seats already filled. </td></tr>
+    <tr><td class="paramname">coachClassSeatsFilled</td><td>An integer representing the number of coach class seats already filled. </td></tr>
   </table>
   </dd>
 </dl>
@@ -346,7 +383,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getActualArrival method takes no parameters and returns the Date (including time) of the Flight's actual arrival </p><dl class="section return"><dt>Returns</dt><dd>A Date representing the actual date and time of arrival </dd></dl>
+
+<p>Retrieves the actual date and time of arrival for the Flight. </p>
+<p>The getActualArrival method takes no parameters and returns the Date (including time) of the Flight's actual arrival. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A Date representing the actual date and time of arrival. </dd></dl>
 
 </div>
 </div>
@@ -364,7 +403,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getActualDeparture method takes no parameters and returns the Date (including time) of the Flight's actual departure </p><dl class="section return"><dt>Returns</dt><dd>A Date representing the actual date and time of departure </dd></dl>
+
+<p>Retrieves the actual date and time of departure for the Flight. </p>
+<p>The getActualDeparture method takes no parameters and returns the Date (including time) of the Flight's actual departure. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A Date representing the actual date and time of departure. </dd></dl>
 
 </div>
 </div>
@@ -382,7 +423,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getArrivalGate method takes no parameters and returns the gate the Flight will arrive at </p><dl class="section return"><dt>Returns</dt><dd>A String representing the gate the Flight will arrive at </dd></dl>
+
+<p>Retrieves the gate the Flight will arrive at. </p>
+<p>The getArrivalGate method takes no parameters and returns the gate the Flight will arrive at. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A String representing the gate the Flight will arrive at. </dd></dl>
 
 </div>
 </div>
@@ -400,7 +443,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getCoachClassSeatsFilled method takes no parameters and returns the number of coach class seats already filled for the flight </p><dl class="section return"><dt>Returns</dt><dd>An integer representing the number of coach class seats already filled </dd></dl>
+
+<p>Retrieves the number of coach class seats already filled for the flight. </p>
+<p>The getCoachClassSeatsFilled method takes no parameters and returns the number of coach class seats already filled for the flight. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>An integer representing the number of coach class seats already filled. </dd></dl>
 
 </div>
 </div>
@@ -418,7 +463,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getDepartureGate method takes no parameters and returns the gate the Flight will depart from </p><dl class="section return"><dt>Returns</dt><dd>A String representing the gate the Flight will depart from </dd></dl>
+
+<p>Retrieves the gate the Flight will depart from. </p>
+<p>The getDepartureGate method takes no parameters and returns the gate the Flight will depart from. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A String representing the gate the Flight will depart from. </dd></dl>
 
 </div>
 </div>
@@ -436,7 +483,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getDestinationAirport method takes no parameters and returns the three-letter code for the Flight's airport of destination </p><dl class="section return"><dt>Returns</dt><dd>A String representing the three-letter airport code </dd></dl>
+
+<p>Retrieves the three-letter code for the Flight's airport of destination. </p>
+<p>The getDestinationAirport method takes no parameters and returns the three-letter code for the Flight's airport of destination. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A String representing the three-letter airport code. </dd></dl>
 
 </div>
 </div>
@@ -454,7 +503,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getFirstClassSeatsFilled method takes no parameters and returns the number of first class seats already filled for the flight </p><dl class="section return"><dt>Returns</dt><dd>An integer representing the number of first class seats already filled </dd></dl>
+
+<p>Retrieves the number of first class seats already filled for the flight. </p>
+<p>The getFirstClassSeatsFilled method takes no parameters and returns the number of first class seats already filled for the flight. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>An integer representing the number of first class seats already filled. </dd></dl>
 
 </div>
 </div>
@@ -472,7 +523,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getFlightNumber method takes no parameters and returns the Flight's four-digit ID number </p><dl class="section return"><dt>Returns</dt><dd>An integer representing the four-digit flight identification number </dd></dl>
+
+<p>Retrieves the Flight's four-digit ID number. </p>
+<p>The getFlightNumber method takes no parameters and returns the Flight's four-digit ID number. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A String representing the four-digit flight identification number. </dd></dl>
 
 </div>
 </div>
@@ -490,7 +543,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getOriginAirport method takes no parameters and returns the three-letter code for the Flight's airport of origin </p><dl class="section return"><dt>Returns</dt><dd>A String representing the three-letter airport code </dd></dl>
+
+<p>Retrieves the three-letter code for the Flight's airport of origin. </p>
+<p>The getOriginAirport method takes no parameters and returns the three-letter code for the Flight's airport of origin. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A String representing the three-letter airport code. </dd></dl>
 
 </div>
 </div>
@@ -508,7 +563,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getPlaneType method takes no parameters and returns the type of plane the Flight will be on </p><dl class="section return"><dt>Returns</dt><dd>A String representing the type of plane for the Flight </dd></dl>
+
+<p>Retrieves the type of plane the Flight will be on. </p>
+<p>The getPlaneType method takes no parameters and returns the type of plane the Flight will be on. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A String representing the type of plane for the Flight. </dd></dl>
 
 </div>
 </div>
@@ -526,7 +583,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getPlannedArrival method takes no parameters and returns the Date (including time) of the Flight's planned arrival </p><dl class="section return"><dt>Returns</dt><dd>A Date representing the planned date and time of arrival </dd></dl>
+
+<p>Retrieves the planned date and time of arrival for the Flight. </p>
+<p>The getPlannedArrival method takes no parameters and returns the Date (including time) of the Flight's planned arrival. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A Date representing the planned date and time of arrival. </dd></dl>
 
 </div>
 </div>
@@ -544,7 +603,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The getPlannedDeparture method takes no parameters and returns the Date (including time) of the Flight's planned departure </p><dl class="section return"><dt>Returns</dt><dd>A Date representing the planned date and time of departure </dd></dl>
+
+<p>Retrieves the planned date and time of departure for the Flight. </p>
+<p>The getPlannedDeparture method takes no parameters and returns the Date (including time) of the Flight's planned departure. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="section return"><dt>Returns</dt><dd>A Date representing the planned date and time of departure. </dd></dl>
 
 </div>
 </div>
@@ -563,9 +624,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setActualArrival method takes a Date (including time) to set the Flight's actual arrival date/time </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the actual date and time of arrival for the Flight. </p>
+<p>The setActualArrival method takes a Date (including time) to set the Flight's actual arrival date/time. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">actualArrival</td><td>A Date representing the actual date and time of arrival </td></tr>
+    <tr><td class="paramname">actualArrival</td><td>A Date representing the actual date and time of arrival. </td></tr>
   </table>
   </dd>
 </dl>
@@ -587,9 +650,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setActualDeparture method takes a Date (including time) to set the Flight's actual departure date/time </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the actual date and time of departure for the Flight. </p>
+<p>The setActualDeparture method takes a Date (including time) to set the Flight's actual departure date/time. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">actualDeparture</td><td>A Date representing the actual date and time of departure </td></tr>
+    <tr><td class="paramname">actualDeparture</td><td>A Date representing the actual date and time of departure. </td></tr>
   </table>
   </dd>
 </dl>
@@ -611,9 +676,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setArrivalGate method takes a single String as a parameter and sets the Flight's arrival gate </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the gate at which the Flight will arrive. </p>
+<p>The setArrivalGate method takes a single String as a parameter and sets the Flight's arrival gate. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">arrivalGate</td><td>A String representing the gate the flight will arrive at </td></tr>
+    <tr><td class="paramname">arrivalGate</td><td>A String representing the gate the flight will arrive at. </td></tr>
   </table>
   </dd>
 </dl>
@@ -635,9 +702,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setCoachClassSeatsFilled method takes an integer as a parameter and sets the Flight's number of coach class seats that are already filled </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the number of coach class seats already filled for the Flight. </p>
+<p>The setCoachClassSeatsFilled method takes an integer as a parameter and sets the Flight's number of coach class seats that are already filled. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">coachClassSeatsFilled</td><td>An integer representing the number of coach class seats already filled </td></tr>
+    <tr><td class="paramname">coachClassSeatsFilled</td><td>An integer representing the number of coach class seats already filled. </td></tr>
   </table>
   </dd>
 </dl>
@@ -659,9 +728,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setDepartureGate method takes a single String as a parameter and sets the Flight's departure gate </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the gate from which the Flight will depart. </p>
+<p>The setDepartureGate method takes a single String as a parameter and sets the Flight's departure gate. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">departureGate</td><td>A String representing the gate the flight will depart from </td></tr>
+    <tr><td class="paramname">departureGate</td><td>A String representing the gate the flight will depart from. </td></tr>
   </table>
   </dd>
 </dl>
@@ -683,9 +754,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setDestinationAirport method takes a single String as a parameter and sets that to the destination airport </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the airport of destination for the Flight. </p>
+<p>The setDestinationAirport method takes a single String as a parameter and sets that to the destination airport. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">destinationAirport</td><td>A String representing the three-letter airport code for the destination airport </td></tr>
+    <tr><td class="paramname">destinationAirport</td><td>A String representing the three-letter airport code for the destination airport. </td></tr>
   </table>
   </dd>
 </dl>
@@ -707,9 +780,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setFirstClassSeatsFilled method takes an integer as a parameter and sets the Flight's number of first class seats that are already filled </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the number of first class seats already filled for the Flight. </p>
+<p>The setFirstClassSeatsFilled method takes an integer as a parameter and sets the Flight's number of first class seats that are already filled. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">firstClassSeatsFilled</td><td>An integer representing the number of first class seats already filled </td></tr>
+    <tr><td class="paramname">firstClassSeatsFilled</td><td>An integer representing the number of first class seats already filled. </td></tr>
   </table>
   </dd>
 </dl>
@@ -731,9 +806,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setOriginAirport method takes a single String as a parameter and sets that to the airport of origin </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the airport of origin for the Flight. </p>
+<p>The setOriginAirport method takes a single String as a parameter and sets that to the airport of origin. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">originAirport</td><td>A String representing the three-letter airport code for the origin airport </td></tr>
+    <tr><td class="paramname">originAirport</td><td>A String representing the three-letter airport code for the origin airport. </td></tr>
   </table>
   </dd>
 </dl>
@@ -755,9 +832,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setPlaneType method takes a single String as a parameter and sets that to the type of plane the flight will use </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the type of plane the Flight will use. </p>
+<p>The setPlaneType method takes a single String as a parameter and sets that to the type of plane the flight will use. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">planeType</td><td>A String representing the type of plane for the flight </td></tr>
+    <tr><td class="paramname">planeType</td><td>A String representing the type of plane for the flight. </td></tr>
   </table>
   </dd>
 </dl>
@@ -779,9 +858,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setPlannedArrival method takes a Date (including time) to set the Flight's planned arrival date/time </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the planned date and time of arrival for the Flight. </p>
+<p>The setPlannedArrival method takes a Date (including time) to set the Flight's planned arrival date/time. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">plannedArrival</td><td>A Date representing the planned date and time of arrival </td></tr>
+    <tr><td class="paramname">plannedArrival</td><td>A Date representing the planned date and time of arrival. </td></tr>
   </table>
   </dd>
 </dl>
@@ -803,9 +884,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The setPlannedDeparture method takes a Date (including time) to set the Flight's planned departure date/time </p><dl class="params"><dt>Parameters</dt><dd>
+
+<p>Sets the planned date and time of departure for the Flight. </p>
+<p>The setPlannedDeparture method takes a Date (including time) to set the Flight's planned departure date/time. Linked Issue: #73 <a href="https://github.com/WSUCEG-7140/TeamF/issues/73">https://github.com/WSUCEG-7140/TeamF/issues/73</a> </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">plannedDeparture</td><td>A Date representing the planned date and time of departure </td></tr>
+    <tr><td class="paramname">plannedDeparture</td><td>A Date representing the planned date and time of departure. </td></tr>
   </table>
   </dd>
 </dl>
@@ -813,7 +896,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Users/briandavis/Documents/Wright State/CS7140/TeamF/src/main/java/WrightFlightManager/MODEL/Flight.java</li>
+<li>main/java/WrightFlightManager/MODEL/Flight.java</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
