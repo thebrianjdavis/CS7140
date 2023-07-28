@@ -1,0 +1,4 @@
+var _flight_attendant_account_creation_to_g_u_i_8java =
+[
+    [ "WrightFlightManager.GUI.FlightAttendantAccountCreationToGUI", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_to_g_u_i.html", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_to_g_u_i" ]
+];

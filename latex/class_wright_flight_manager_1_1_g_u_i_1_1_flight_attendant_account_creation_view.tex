@@ -1,11 +1,49 @@
 \doxysection{Wright\+Flight\+Manager.\+GUI.\+Flight\+Attendant\+Account\+Creation\+View Class Reference}
 \hypertarget{class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_view}{}\label{class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_view}\index{WrightFlightManager.GUI.FlightAttendantAccountCreationView@{WrightFlightManager.GUI.FlightAttendantAccountCreationView}}
+
+
+This class represents the graphical user interface for creating flight attendant accounts.  
+
+
 Inheritance diagram for Wright\+Flight\+Manager.\+GUI.\+Flight\+Attendant\+Account\+Creation\+View\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[height=2.000000cm]{class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_view}
 \end{center}
 \end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_view_a7138b07ad0a3e0b2206c6822d081a2fd}{Flight\+Attendant\+Account\+Creation\+View}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for Flight\+Attendant\+Account\+Creation\+View. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the graphical user interface for creating flight attendant accounts. 
+
+The Flight\+Attendant\+Account\+Creation\+View class extends JFrame to create the main frame for the GUI. It allows the user to create a new flight attendant account by entering relevant information. The class includes methods to create buttons, labels, text fields, and password fields for the GUI.
+
+\begin{DoxyNote}{Note}
+This class uses a null layout, which may not be recommended for production GUI development. 
+\end{DoxyNote}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_view_a7138b07ad0a3e0b2206c6822d081a2fd}\label{class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_view_a7138b07ad0a3e0b2206c6822d081a2fd} 
+\index{WrightFlightManager.GUI.FlightAttendantAccountCreationView@{WrightFlightManager.GUI.FlightAttendantAccountCreationView}!FlightAttendantAccountCreationView@{FlightAttendantAccountCreationView}}
+\index{FlightAttendantAccountCreationView@{FlightAttendantAccountCreationView}!WrightFlightManager.GUI.FlightAttendantAccountCreationView@{WrightFlightManager.GUI.FlightAttendantAccountCreationView}}
+\doxysubsubsection{\texorpdfstring{FlightAttendantAccountCreationView()}{FlightAttendantAccountCreationView()}}
+{\footnotesize\ttfamily Wright\+Flight\+Manager.\+GUI.\+Flight\+Attendant\+Account\+Creation\+View.\+Flight\+Attendant\+Account\+Creation\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor for Flight\+Attendant\+Account\+Creation\+View. 
+
+This constructor initializes the main frame and sets its properties such as title, size, default close operation, location, and resizability. It also creates the \"{}\+Create Account\"{} button and adds it to the frame. An action listener is registered for the button to handle its clicks. When the button is clicked, a new Flight\+Attendant\+Account\+Creation\+View object is created and made visible.
+
+\begin{DoxyNote}{Note}
+The action listener creates a new instance of the class, which might not be the desired behavior. It appears to create a new identical window for account creation when the button is clicked. You might want to change this behavior if it\textquotesingle{}s not intended. 
+\end{DoxyNote}
 
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}

@@ -1,0 +1,164 @@
+\doxysection{Wright\+Flight\+Manager.\+DAO.\+Flight\+File\+DAO Class Reference}
+\hypertarget{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o}{}\label{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o}\index{WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}}
+
+
+Handles data access operations related to the Flight model using a file-\/based data storage system.  
+
+
+Inheritance diagram for Wright\+Flight\+Manager.\+DAO.\+Flight\+File\+DAO\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_ab908767d41aec659b76a08c6b70e0332}{Flight\+File\+DAO}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for Flight\+File\+DAO. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a5a6132e80949ea6192de7832fd771abb}{Flight\+File\+DAO}} (String flight\+File\+Name)
+\begin{DoxyCompactList}\small\item\em Parameterized constructor for Flight\+File\+DAO. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_ab591f170cd579245a97fb4497b6eba44}{add\+New\+Flight}} (\mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}} new\+Flight)
+\begin{DoxyCompactList}\small\item\em Adds a new flight to the data storage system. \end{DoxyCompactList}\item 
+Hash\+Map$<$ String, \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}} $>$ \mbox{\hyperlink{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a2f73d1afbd4f6a470e062da4da3a50f3}{get\+All\+Flights}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves all flights from the data storage system. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a106f8cd1b52272a8751402423e213fe2}{update\+Flight}} (\mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}} updated\+Flight)
+\begin{DoxyCompactList}\small\item\em Updates an existing flight\textquotesingle{}s information in the data storage system. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a665bdeff3ead87c828f8b83d35171480}{delete\+Flight}} (\mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}} flight\+To\+Delete)
+\begin{DoxyCompactList}\small\item\em Deletes a flight from the data storage system. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{interface_wright_flight_manager_1_1_d_a_o_1_1i_flight_d_a_o_a6b5fc8a2a834712a0634f691e512c69a}{add\+New\+Flight}} (\mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}} new\+Flight)
+\begin{DoxyCompactList}\small\item\em Adds a new flight to the data storage. \end{DoxyCompactList}\item 
+Hash\+Map$<$ String, \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}} $>$ \mbox{\hyperlink{interface_wright_flight_manager_1_1_d_a_o_1_1i_flight_d_a_o_afd13ff59e9d8d0e9d0005950dd9b97c1}{get\+All\+Flights}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves all flights from the data storage. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{interface_wright_flight_manager_1_1_d_a_o_1_1i_flight_d_a_o_ac97b36d21144033016d80091956a6b74}{update\+Flight}} (\mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}} updated\+Flight)
+\begin{DoxyCompactList}\small\item\em Updates an existing flight in the data storage. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{interface_wright_flight_manager_1_1_d_a_o_1_1i_flight_d_a_o_a65eb525d43212f8c9f7e1bc35649bebf}{delete\+Flight}} (\mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}} flight\+To\+Delete)
+\begin{DoxyCompactList}\small\item\em Deletes a flights from the data storage. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handles data access operations related to the Flight model using a file-\/based data storage system. 
+
+The Flight\+File\+DAO class implements the i\+Flight\+DAO interface to manage data related to the \"{}\+Flight\"{} entity using a file-\/based storage system. It represents the Data Access Object (DAO) pattern in the context of managing roles. 
+
+For more information about the Data Access Object (DAO) pattern, please refer to the Wikipedia page\+: \href{https://en.wikipedia.org/wiki/Data_access_object}{\texttt{ https\+://en.\+wikipedia.\+org/wiki/\+Data\+\_\+access\+\_\+object}} 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_ab908767d41aec659b76a08c6b70e0332}\label{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_ab908767d41aec659b76a08c6b70e0332} 
+\index{WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}!FlightFileDAO@{FlightFileDAO}}
+\index{FlightFileDAO@{FlightFileDAO}!WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}}
+\doxysubsubsection{\texorpdfstring{FlightFileDAO()}{FlightFileDAO()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Wright\+Flight\+Manager.\+DAO.\+Flight\+File\+DAO.\+Flight\+File\+DAO (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor for Flight\+File\+DAO. 
+
+This constructor sets the default path for the file storing flight data. The default path is \"{}src/main/java/\+Wright\+Flight\+Manager/\+FILES/\+Flights.\+psv\"{}. Linked Issue\+: \#7 \href{https://github.com/WSUCEG-7140/TeamF/issues/7}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/7}} \Hypertarget{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a5a6132e80949ea6192de7832fd771abb}\label{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a5a6132e80949ea6192de7832fd771abb} 
+\index{WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}!FlightFileDAO@{FlightFileDAO}}
+\index{FlightFileDAO@{FlightFileDAO}!WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}}
+\doxysubsubsection{\texorpdfstring{FlightFileDAO()}{FlightFileDAO()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Wright\+Flight\+Manager.\+DAO.\+Flight\+File\+DAO.\+Flight\+File\+DAO (\begin{DoxyParamCaption}\item[{String}]{flight\+File\+Name }\end{DoxyParamCaption})}
+
+
+
+Parameterized constructor for Flight\+File\+DAO. 
+
+This constructor allows specifying a custom file path for storing flight data. Linked Issue\+: \#7 \href{https://github.com/WSUCEG-7140/TeamF/issues/7}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/7}} 
+\begin{DoxyParams}{Parameters}
+{\em flight\+File\+Name} & The custom file path for storing flight data. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_ab591f170cd579245a97fb4497b6eba44}\label{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_ab591f170cd579245a97fb4497b6eba44} 
+\index{WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}!addNewFlight@{addNewFlight}}
+\index{addNewFlight@{addNewFlight}!WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}}
+\doxysubsubsection{\texorpdfstring{addNewFlight()}{addNewFlight()}}
+{\footnotesize\ttfamily boolean Wright\+Flight\+Manager.\+DAO.\+Flight\+File\+DAO.\+add\+New\+Flight (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}}}]{new\+Flight }\end{DoxyParamCaption})}
+
+
+
+Adds a new flight to the data storage system. 
+
+This method is responsible for adding a new flight to the data storage system. The flight information is obtained from the provided Flight object. Linked Issue\+: \#43 \href{https://github.com/WSUCEG-7140/TeamF/issues/43}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/43}} 
+\begin{DoxyParams}{Parameters}
+{\em new\+Flight} & The User object representing the new flight to be added. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the flight is successfully added, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_wright_flight_manager_1_1_d_a_o_1_1i_flight_d_a_o_a6b5fc8a2a834712a0634f691e512c69a}{Wright\+Flight\+Manager.\+DAO.\+i\+Flight\+DAO}}.
+
+\Hypertarget{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a665bdeff3ead87c828f8b83d35171480}\label{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a665bdeff3ead87c828f8b83d35171480} 
+\index{WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}!deleteFlight@{deleteFlight}}
+\index{deleteFlight@{deleteFlight}!WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}}
+\doxysubsubsection{\texorpdfstring{deleteFlight()}{deleteFlight()}}
+{\footnotesize\ttfamily boolean Wright\+Flight\+Manager.\+DAO.\+Flight\+File\+DAO.\+delete\+Flight (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}}}]{flight\+To\+Delete }\end{DoxyParamCaption})}
+
+
+
+Deletes a flight from the data storage system. 
+
+This method is used to delete a flight from the file-\/based data storage system. The flight to be deleted is identified by the provided Flight object, which should have the same flight number as the one to be deleted. Linked Issue\+: \#46 \href{https://github.com/WSUCEG-7140/TeamF/issues/46}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/46}} 
+\begin{DoxyParams}{Parameters}
+{\em flight\+To\+Delete} & The Flight object representing the flight to be deleted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the flight is successfully deleted, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_wright_flight_manager_1_1_d_a_o_1_1i_flight_d_a_o_a65eb525d43212f8c9f7e1bc35649bebf}{Wright\+Flight\+Manager.\+DAO.\+i\+Flight\+DAO}}.
+
+\Hypertarget{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a2f73d1afbd4f6a470e062da4da3a50f3}\label{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a2f73d1afbd4f6a470e062da4da3a50f3} 
+\index{WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}!getAllFlights@{getAllFlights}}
+\index{getAllFlights@{getAllFlights}!WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}}
+\doxysubsubsection{\texorpdfstring{getAllFlights()}{getAllFlights()}}
+{\footnotesize\ttfamily Hash\+Map$<$ String, \mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}} $>$ Wright\+Flight\+Manager.\+DAO.\+Flight\+File\+DAO.\+get\+All\+Flights (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves all flights from the data storage system. 
+
+This method retrieves all flight records from the file-\/based data storage system and returns them in a Hash\+Map where the key is the flight number (a String) and the value is the corresponding Flight object. Linked Issue\+: \#44 \href{https://github.com/WSUCEG-7140/TeamF/issues/44}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/44}} \begin{DoxyReturn}{Returns}
+A Hash\+Map$<$\+String, Flight$>$ containing all flight records in the data storage system. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_wright_flight_manager_1_1_d_a_o_1_1i_flight_d_a_o_afd13ff59e9d8d0e9d0005950dd9b97c1}{Wright\+Flight\+Manager.\+DAO.\+i\+Flight\+DAO}}.
+
+\Hypertarget{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a106f8cd1b52272a8751402423e213fe2}\label{class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o_a106f8cd1b52272a8751402423e213fe2} 
+\index{WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}!updateFlight@{updateFlight}}
+\index{updateFlight@{updateFlight}!WrightFlightManager.DAO.FlightFileDAO@{WrightFlightManager.DAO.FlightFileDAO}}
+\doxysubsubsection{\texorpdfstring{updateFlight()}{updateFlight()}}
+{\footnotesize\ttfamily boolean Wright\+Flight\+Manager.\+DAO.\+Flight\+File\+DAO.\+update\+Flight (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wright_flight_manager_1_1_m_o_d_e_l_1_1_flight}{Flight}}}]{updated\+Flight }\end{DoxyParamCaption})}
+
+
+
+Updates an existing flight\textquotesingle{}s information in the data storage system. 
+
+This method is responsible for updating an existing flight\textquotesingle{}s information in the data storage system. The new flight information is obtained from the provided Flight object, which should have the same flight number as the one to be updated. Linked Issue\+: \#45 \href{https://github.com/WSUCEG-7140/TeamF/issues/45}{\texttt{ https\+://github.\+com/\+WSUCEG-\/7140/\+Team\+F/issues/45}} 
+\begin{DoxyParams}{Parameters}
+{\em updated\+Flight} & The Flight object representing the updated flight information. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the flight information is successfully updated, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_wright_flight_manager_1_1_d_a_o_1_1i_flight_d_a_o_ac97b36d21144033016d80091956a6b74}{Wright\+Flight\+Manager.\+DAO.\+i\+Flight\+DAO}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+main/java/\+Wright\+Flight\+Manager/\+DAO/Flight\+File\+DAO.\+java\end{DoxyCompactItemize}
