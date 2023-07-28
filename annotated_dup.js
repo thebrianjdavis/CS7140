@@ -10,10 +10,11 @@ var annotated_dup =
         [ "UserFileDAO", "class_wright_flight_manager_1_1_d_a_o_1_1_user_file_d_a_o.html", "class_wright_flight_manager_1_1_d_a_o_1_1_user_file_d_a_o" ]
       ] ],
       [ "GUI", null, [
-        [ "BaggageScreentoFlightAttendantView", "class_wright_flight_manager_1_1_g_u_i_1_1_baggage_screento_flight_attendant_view.html", null ],
+        [ "BaggageScreentoFlightAttendantView", "class_wright_flight_manager_1_1_g_u_i_1_1_baggage_screento_flight_attendant_view.html", "class_wright_flight_manager_1_1_g_u_i_1_1_baggage_screento_flight_attendant_view" ],
         [ "FlightAttendantAccountCreationToGUI", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_to_g_u_i.html", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_to_g_u_i" ],
         [ "FlightAttendantAccountCreationView", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_view.html", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_account_creation_view" ],
         [ "FlightAttendantView", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_view.html", "class_wright_flight_manager_1_1_g_u_i_1_1_flight_attendant_view" ],
+        [ "LoginUsernameAndPasswordView", "class_wright_flight_manager_1_1_g_u_i_1_1_login_username_and_password_view.html", null ],
         [ "PassengerAccountCreationToGUI", "class_wright_flight_manager_1_1_g_u_i_1_1_passenger_account_creation_to_g_u_i.html", "class_wright_flight_manager_1_1_g_u_i_1_1_passenger_account_creation_to_g_u_i" ],
         [ "PassengerAccountCreationView", "class_wright_flight_manager_1_1_g_u_i_1_1_passenger_account_creation_view.html", "class_wright_flight_manager_1_1_g_u_i_1_1_passenger_account_creation_view" ],
         [ "WelcomeScreen", "class_wright_flight_manager_1_1_g_u_i_1_1_welcome_screen.html", "class_wright_flight_manager_1_1_g_u_i_1_1_welcome_screen" ]
