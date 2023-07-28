@@ -1,7 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"_flight_attendant_account_creation_to_g_u_i_8java.html":[1,0,0,0,0,0,0],
-"_flight_attendant_view_8java.html":[1,0,0,0,0,0,1],
 "annotated.html":[0,0],
 "class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o.html":[0,0,0,0,0],
 "class_wright_flight_manager_1_1_d_a_o_1_1_flight_file_d_a_o.html#a106f8cd1b52272a8751402423e213fe2":[0,0,0,0,0,5],
@@ -126,11 +124,6 @@ var NAVTREEINDEX0 =
 "class_wright_flight_manager_1_1_s_e_c_u_r_i_t_y_1_1_authorizer.html#ac11c919af7a369b98c52e64eeed2662c":[0,0,0,3,0,0],
 "class_wright_flight_manager_1_1_s_e_c_u_r_i_t_y_1_1_authorizer.html#ada0680795a1fb636dc0e886512b06e6f":[0,0,0,3,0,3],
 "classes.html":[0,1],
-"dir_1a3617d110d4f6775f8a9b4475c30c39.html":[1,0,0,0,0],
-"dir_2838336ca81cf2b4d1651403853eee77.html":[1,0,0,0,0,0],
-"dir_5c982d53a68cdbcd421152b4020263a9.html":[1,0,0],
-"dir_e033298f2156e5e9d9e90a60ada84467.html":[1,0,0,0],
-"files.html":[1,0],
 "functions.html":[0,3,0],
 "functions_func.html":[0,3,1],
 "hierarchy.html":[0,2],
